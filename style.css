@@ -45,7 +45,6 @@ h3
 #main-bio,
 #contact-info,
 #bio-image {
-  float: left;
   background:#fff;
   padding: 10px;
 }
