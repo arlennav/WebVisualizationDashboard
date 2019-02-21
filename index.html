@@ -19,12 +19,6 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   
-
-</head>
-
-<body>
-
-  <div id="navbar-frame"></div>
   <script lang="javascript">
       var settings = {
           'cache': false,
@@ -40,11 +34,15 @@
       }
 
       $.ajax(settings).done(function (response) {
-          console.log(response);
+        $("#navbar-frame").html(response);
       });
 
     </script>
- 
+</head>
+
+<body>
+
+  <div id="navbar-frame"></div>
   <div class="container">
     <div class="row">
       <div class="col-md-4">
