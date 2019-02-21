@@ -4,20 +4,75 @@ body{
   color: #000;
 }
 
+.row {
+  margin: 25px;
+}
+
+
 .navbar
 {
   background: #fff;
 }
+
+h3
+{
+  font-weight: bold;
+  color:#009999;
+}
 .navbar-brand
 {
   padding: 10px;
-  background: #4285f4;
+  background: #009999;
   color:#fff;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
 }
 
-a {
-  color: #000000;
+.page-footer
+{
+    background: #666666;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+
+}  
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+  background:#fff;
+  padding: 10px;
+}
+
+#figure {
+  position: relative;
+}
+#bio-image {
+  width: 300px;
+  margin: 10px;
+  position: relative;
+  padding: 10px;
+}
+
+#visualizations{
+  background:#fff;
+  padding: 10px;
+  float: left;
+
+}
+#visualizations .row {
+  margin: 5px;
+  padding: 0px;
+}
+
+#vis-image {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
 }
